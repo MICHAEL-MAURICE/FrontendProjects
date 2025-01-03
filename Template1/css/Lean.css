@@ -18,21 +18,15 @@ body{
   font-style: normal;
 }
 
-/* end Global Rules */
 
-
-.parent {
-    background-color: #eee;
-    }
  .container {
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;;
     width: 600px;
-    background-color: #aaa;
+    
     }
-
 
     /* Small */
 @media (min-width: 768px) {
@@ -52,3 +46,23 @@ body{
       width: 1170px;
     }
   }
+  /* end Global Rules */
+
+
+
+/* Header */
+.header {
+    padding: 20px;
+  }
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header .logo {
+    width: 100px;
+  }
+  .header .links {
+    position: relative;
+  }
+/* end Header */
